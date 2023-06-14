@@ -1,10 +1,10 @@
 # dmc2-electronics-enclosure
 Create an enclosure for the DMC2 electronics that is away from the mill
 
-# This is a work in progress
+As you are likely aware, the original enclosure for the DMC2 electronics is somewhat limiting and is mounted in an unaccessible location once complete.
+In addition, the 12v power supplies provided by the kit are unsafe and I replaced them with a nice Mean Well DIN mounted equivelant. 
 
-As you are likely aware, the original enclosure for the DMC2 electronics is somewhat limiting.
-In addition, the 12v power supplies are unsafe and will be replaced in my rebuild with a DIN mounted one.
+NOTE: TBD I have to still assemble the pump and prove there is no interference between the pump and other electronics.
 
 As the DMC2 mill has cooling fluids, the electonics enclosure should be water resistant from splashes.
 
@@ -16,28 +16,23 @@ putting the electronics to the bottom right of my rolling cart. If the electroni
 the current Z cable length would likely be fine. I will also need to extend the end stop wires and various 
 power cables.
 
-I am thinking of adding an emergency power switch that kills ALL power to the system.
+I ordered an extra set of the Dinkle Terminal blocks as I wanted a couple more in Black and White. 
 
-If you assembled the DMC2 yourself, you should already have most (if not all of the following parts). 
+I added an emergency power switch that kills ALL power to the system.
 
-Equipment Needed.  
--power drill, various sized bits.  
--ferrel crimper.  
--metal files.  
--wire cutters.  
--wire strippers.  
--wrenches.  
+I also switched out the CRAPPY touch probe and the tool puck for better ones. 
 
-Parts List.  
--DMC2  
--tool cart (if you need a mobile solution and your mill isn't on a bench).  
--various nuts and bolts for mounting  
--parts from table below
+If you assembled the DMC2 yourself, you should already have most (if not all of the tools listed).
+If I listed a tool with an Amazon link, it's because I REALLY like it and it was worth buying. 
+
+I got an inexpensive used Craftsman Tool Chest off Craigslist. Time will tell if it's heavy enough to prevent the DMC2 from moving around too much.
 
 
-## Amazon Links, not affiliate links
+I used Mike's modified vers.by scripts at:
+https://github.com/mikejr83/versby-probing-scripts-mach3
 
-Should I do affiliate links?
+I have more photos from the build on a Google Album at: 
+https://photos.app.goo.gl/r67HLwYJ9gqSSJda6
 
 | Item                           | Aprox Cost   | Link                         |
 | ------------------------------ |-------------:| :----------------------------|
@@ -45,12 +40,35 @@ Should I do affiliate links?
 | Cable Glands, assortment       |          $10 | [Cable Glands](https://www.amazon.com/gp/product/B07RHJM435/) |
 | 12v 10 amp DIN Power supply    |          $35 | [Meanwell EDR-120-12](https://www.amazon.com/gp/product/B00R5CHZAO) |
 | DIN Rails 2x 12.9"             |           $7 | [DIN Rails](https://www.amazon.com/gp/product/B088FC2KB8) |
-| DIN Rail Terminal Blocks.      |          $30 | [Dinkle UL Every Color DIN Rail Terminal Block Kit 20](https://www.amazon.com/gp/product/B07NVV28D9) |
-| 3-wire to extend end stops.    |          $24 | [3-wire 22 gauge 50 feet](https://www.amazon.com/gp/product/B09ZYBZQ31/ref=ox_sc_act_title_1?smid=A1L0E7QB0ZSWNU&psc=1) |
-| Optional | | |
-| Cart for the DMC2              |        $200 |
-| Emergency Power Switch.        |          $16 | [POWERTEC 71007 110 V to 220V Paddle Switch](https://www.amazon.com/gp/product/B00KPEEPAW/) |
-| Longer Close Loop stepper cables |.       $14 | [Steppers Online 105" Closed Loop Stepper Cables](https://www.omc-stepperonline.com/2-7m-106-awg20-motor-and-encoder-extension-cable-kit-for-nema-23-and-24-closed-loop-stepper-motors-ce3-m3-20) |
+| DIN Rail Terminal Blocks       |          $30 | [Dinkle UL Every Color DIN Rail Terminal Block Kit 20](https://www.amazon.com/gp/product/B07NVV28D9) |
+| DIN Terminal Block Connectors  |          $15 | [Dinkle Terminal Block Connectors](https://www.amazon.com/gp/product/B07SVGN5ZJ) |
+| Cable Ties with screw bases    |          $13 | [Cable Ties+Bases](https://www.amazon.com/gp/product/B09PV4RP3K) |
+| 3-wire to extend end stops     |          $24 | [3-wire 22 gauge 50 feet](https://www.amazon.com/gp/product/B09ZYBZQ31) |
+| Cabling Raceway 1"x1.5"        |          $20 | [5 pack cable raceway](https://www.amazon.com/gp/product/B08R75RMQT) |
+
+| Misc                           | Aprox Cost   | Link                         |
+| ------------------------------ |-------------:| :----------------------------|
+| 120v Power Cable               |          n/a | I had a lot of spare 120v computer power cords and cut them up for the 120v connection |
+| Nuts, bolts, screws            |          n/a| |
+| Wago connectors | | |
+| Plywood ~18"x24"               |          n/a| |
+
+| Optional                       | Aprox Cost   | Link                         |
+| ------------------------------ |-------------:| :----------------------------|
+| Dinkle Black/White Terminal Blocks |     $30 | [Dinkle UL Black+White DIN Rail Terminal Block Kit](https://www.amazon.com/gp/product/B09JY7WKK4)|
+| Cart for the DMC2              |        $200 | Heavy Cart with castors for the DMC2 |
+| Emergency Power Switch         |          $16 | [POWERTEC 71007 110 V to 220V Paddle Switch](https://www.amazon.com/gp/product/B00KPEEPAW/) |
+| Longer Close Loop stepper cables |        $14 | [Steppers Online 105" Closed Loop Stepper Cables](https://www.omc-stepperonline.com/2-7m-106-awg20-motor-and-encoder-extension-cable-kit-for-nema-23-and-24-closed-loop-stepper-motors-ce3-m3-20) |
+| Tool Height Sensor N.O.        |          $61 | [Auto Tool Sensor Universal Type NC/NO CNC Probe Tool Touch Sensor](https://www.amazon.com/gp/product/B08M97W5MV) |
+| Touch Probe N.O.               |          $72 | [Touch Probe Type NO](https://www.amazon.com/gp/product/B0BJ2245HB) |
+| Tools | | |
+| Jigsaw for the wood | | |
+| Drill and bits | | |
+| Wrenches, Plyers, Metal Files | | |
+| Iwiss crimper kit with Ferrules |         $25 | [Iwiss Crimper](https://www.amazon.com/gp/product/B07LCF39W9) |
+| Iwiss crimper kit for automotive |        $30 | [Iwiss iCrimp Heat Shrink Connectors Crimping Tool](https://www.amazon.com/gp/product/B07QGZFP9S) |
+| Auto Wire Strippers            |          $22 | [Klein Tools 11061 Wire Stripper](https://www.amazon.com/gp/product/B00CXKOEQ6) |
+| Soldering Iron + Hot Air       |         $190 | [X-Tronic 6040-PRO-X with soldering iron and hot air](https://www.amazon.com/gp/product/B08PDKP6WB) |
 
 ## DMC2 Help
 A number of DMC2 owners hang out on Discord at [3D Misfits/CNC](https://discord.gg/86fqsRfz).  
